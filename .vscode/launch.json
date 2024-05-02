@@ -1,0 +1,45 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "ThreeAddressCode2",
+      "request": "launch",
+      "mainClass": "ThreeAddressCode2",
+      "projectName": "LPCC_L_27adab6a"
+    },
+    {
+      "type": "java",
+      "name": "ThreeAddressCode1",
+      "request": "launch",
+      "mainClass": "ThreeAddressCode1",
+      "projectName": "LPCC_L_27adab6a"
+    },
+    {
+      "type": "java",
+      "name": "ThreeAddressCode",
+      "request": "launch",
+      "mainClass": "ThreeAddressCode",
+      "projectName": "LPCC_L_27adab6a"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "d:/LPCC_L",
+      "program": "d:/LPCC_L/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
